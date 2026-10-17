@@ -1,0 +1,45 @@
+:root {
+  font-family: Inter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #eef4ff;
+  background: #05070b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  margin: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  min-width: 320px;
+  background:
+    radial-gradient(ellipse at 12% 12%, rgba(47, 77, 126, 0.2), transparent 36%),
+    linear-gradient(135deg, #080b11, #111722);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(18px, 4vh, 36px);
+}
+
+button {
+  font: inherit;
+}
